@@ -1,0 +1,39 @@
+{
+  "name": "universal-obfuscator",
+  "version": "2.0.0",
+  "description": "KnoxEnc / UOBF — Advanced zero-dependency Termux & Linux CLI source-code encoder & obfuscator for C, C++, Java, Rust, Python, JS/Node, Ruby, Bash, HTML, and CSS.",
+  "bin": {
+    "uobf": "bin/obfuscate.js",
+    "knoxenc": "bin/obfuscate.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node bin/obfuscate.js",
+    "doctor": "node bin/obfuscate.js --doctor",
+    "test": "node bin/obfuscate.js --doctor",
+    "interactive": "node bin/obfuscate.js --interactive"
+  },
+  "keywords": [
+    "knoxenc",
+    "obfuscator",
+    "encoder",
+    "termux",
+    "cli",
+    "mba",
+    "stream-cipher",
+    "javascript",
+    "python",
+    "c",
+    "cpp",
+    "rust",
+    "java",
+    "ruby",
+    "bash",
+    "html",
+    "css"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}

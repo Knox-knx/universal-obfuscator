@@ -1,0 +1,9 @@
+/* Sample stylesheet */
+.title {
+    color: #ff3366;
+    font-weight: bold;
+}
+#main {
+    padding: 10px;
+    background-color: #112233;
+}
